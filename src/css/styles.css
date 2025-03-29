@@ -1,6 +1,18 @@
 /* Common styles */
 @import url('./reset.css');
 
+/* Sections style */
+@import url('./1-gallery.css');
+@import url('./2-form.css');
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
 .task-list {
   display: flex;
   justify-content: center;
